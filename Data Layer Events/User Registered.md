@@ -24,8 +24,7 @@ dataLayer.push({
         "user_country": "<user_country>",
         "user_id": "<user_id>",
         "user_registration_status": "<user_registration_status>",
-        "user_state_or_province": "<user_state_or_province>",
-        "user_type": "<user_type>"
+        "user_state_or_province": "<user_state_or_province>"
     }
 });
 ```
@@ -44,7 +43,6 @@ dataLayer.push({
 |user_data.user_id|string|The id of the user currently logged in to the site, if the site offers authentication and the user is authenticated.|123456, abc123|||||||
 |user_data.user_registration_status|string|Captures the current registration status of the user.|registered|||||||
 |user_data.user_state_or_province|string|Captures the state or province associated with a tranaction or significant user action.||||||||
-|user_data.user_type|string|Captures the type associated with the user \(participant, team leader, etc.\) if known|participant, team lead|||||||
 
 ## Attached Notes
 
