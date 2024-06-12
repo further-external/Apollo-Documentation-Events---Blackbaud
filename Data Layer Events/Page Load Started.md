@@ -17,7 +17,8 @@ dataLayer.push({
         "page_location": "<page_location>",
         "site_name": "<site_name>",
         "site_section": "<site_section>",
-        "site_type": "<site_type>"
+        "site_type": "<site_type>",
+        "system_environment": "<system_environment>"
     }
 });
 ```
@@ -34,6 +35,8 @@ dataLayer.push({
 |page_data.site_name|string|Common language used within the business to refer to the website. May be specific County Sites.|Prospecting-EU, Prospecting-US, Member Portal, Shop-CA, Shop-US, Shop-EU|||||||
 |page_data.site_section|string|The section of the site that the current page resides in. site\_section2 through site\_section5can also be used if the site has many sections.||||||||
 |page_data.site_type|string|Common language description of the site type of purpose. May be used to group siteName.|Prospecting, Shop, Members, Brand|||||||
+|page_data.system_environment|string|The environment type of the site, is used to distinguish between product and non-production activity.|production, non-production|||||||
+
 
 ## Attached Notes
 
