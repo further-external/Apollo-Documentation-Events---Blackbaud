@@ -44,4 +44,4 @@ dataLayer.push({
 
 ## Attached Notes
 
-<p>This should occur in between the Page Load Started and Page Load Completed sequence.</p>
+<p>This should occur before the Page View event.</p>
