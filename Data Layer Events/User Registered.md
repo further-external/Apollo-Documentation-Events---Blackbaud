@@ -1,4 +1,4 @@
-# Registration Completed
+# User Registered
 
 ### 
 
@@ -46,4 +46,4 @@ dataLayer.push({
 
 ## Attached Notes
 
-<p>Fires on the final step of the registration process.</p>
+<p>Fires on the final step of the user account registration process.</p>
