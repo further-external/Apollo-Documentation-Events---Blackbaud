@@ -1,4 +1,4 @@
-# Page Load Started
+# Page View
 
 ### 
 
@@ -7,8 +7,8 @@
 window.dataLayer = window.dataLayer || [];
 dataLayer.push({ page_data: null });  // Clear the previous page_data object.
 dataLayer.push({
-  "event": "page_load_started",
-  "detailed_event": "Page Load Started",
+  "event": "page_view",
+  "detailed_event": "Page View",
     "page_data": {
         "breadcrumb": "<breadcrumb>",
         "country": "<country>",
@@ -40,4 +40,4 @@ dataLayer.push({
 
 ## Attached Notes
 
-<p>This should be the first event that loads during the page load process before any other event is fired.</p>
+<p>This should be the final event in the page load sequence and should fire after everything else that occurs during page load (User Detected, etc.).</p>

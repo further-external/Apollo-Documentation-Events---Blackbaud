@@ -8,8 +8,8 @@ window.dataLayer = window.dataLayer || [];
 dataLayer.push({ event_data: null });  // Clear the previous event_data object.
 dataLayer.push({ page_data: null });  // Clear the previous page_data object.
 dataLayer.push({
-  "event": "sign_up",
-  "detailed_event": "User Registered",
+  "event": "registration_completed",
+  "detailed_event": "Registration Completed",
     "event_data": {
         "method": "<method>",
         "name": "<name>",
@@ -46,4 +46,4 @@ dataLayer.push({
 
 ## Attached Notes
 
-<p>Fires on the final step of the registration process.</p>
+<p>Fires on the final step of the user account registration process.</p>

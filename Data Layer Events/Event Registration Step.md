@@ -1,4 +1,4 @@
-# Registration Step Completed
+# Registration Step
 
 ### 
 
@@ -7,8 +7,8 @@
 window.dataLayer = window.dataLayer || [];
 dataLayer.push({ event_data: null });  // Clear the previous event_data object.
 dataLayer.push({
-  "event": "registration_step_completed",
-  "detailed_event": "Registration Step Completed",
+  "event": "registration_step",
+  "detailed_event": "Registration Step",
     "event_data": {
         "caregiverStatus": "<caregiverStatus>",
         "donorStatus": "<donorStatus>",
